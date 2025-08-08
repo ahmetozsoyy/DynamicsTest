@@ -24,11 +24,11 @@ namespace DynamicsTest
             {
                 if (serviceClient.IsReady)
                 {
-                    Console.WriteLine("Bağlantı başarılı.");
+                    Console.WriteLine("Bağlantı başarılı");
                 }
                 else
                 {
-                    Console.WriteLine("Bağlantı başarısız.");
+                    Console.WriteLine("Bağlantı başarısız");
                     Console.WriteLine(serviceClient.LastError); 
                 }
             }
